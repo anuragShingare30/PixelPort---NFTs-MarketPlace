@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "dpixelport_backend": {
+      "main": "src/dpixelport_backend/main.mo",
+      "type": "motoko"
+    },
+    "dpixelport_frontend": {
+      "dependencies": [
+        "dpixelport_backend"
+      ],
+      "source": [
+        "src/dpixelport_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "dpixelport_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
