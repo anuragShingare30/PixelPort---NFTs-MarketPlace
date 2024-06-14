@@ -4,6 +4,10 @@
       "main": "src/dpixelport_backend/main.mo",
       "type": "motoko"
     },
+    "nft":{
+      "main": "src/NFT/nft.mo",
+      "type": "motoko"
+    },
     "dpixelport_frontend": {
       "dependencies": [
         "dpixelport_backend"
@@ -12,7 +16,8 @@
         "src/dpixelport_frontend/dist"
       ],
       "type": "assets",
-      "workspace": "dpixelport_frontend"
+      "workspace": "dpixelport_frontend",
+      "candid": "src/pixelport_frontend/assetstorage.did"
     }
   },
   "defaults": {
