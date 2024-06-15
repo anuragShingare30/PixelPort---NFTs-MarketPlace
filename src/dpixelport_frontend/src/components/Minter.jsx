@@ -104,6 +104,7 @@ export {Minter};
 //--------------------------------------------------------------------------------//
 // THIS IS THE FORMAT TO USE THE REACT 'useForm' TO HANDLE AND STORE THE DATA ENTER BY THE USER IN THE TEXT FIELD.
 
+//   import {useForm} from "react-hook-form";
 //   let {register, handleSubmit} = useForm();
 //   async function onSubmit(data){
 //     console.log(data.name);
