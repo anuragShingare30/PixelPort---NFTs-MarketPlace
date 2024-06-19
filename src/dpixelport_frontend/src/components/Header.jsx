@@ -34,7 +34,7 @@ function Head(props) {
   };
 
   React.useEffect(() => {
-    getNFTs();
+    getNFTs(); 
   }, []);
 
   return (

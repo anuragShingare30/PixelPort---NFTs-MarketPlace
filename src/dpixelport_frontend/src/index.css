@@ -18,9 +18,13 @@ body {
   justify-content: space-around;
   border-bottom: 1px solid rgb(47, 47, 47);
 }
+/* TITLE LOGO */
 .header .titleImg{
   width: 290px;
+  /* display: none; */
 }
+
+/* ---------------------------------------------------------------------------- */
 .header ul{
   list-style-type: none;
   display: flex;
@@ -57,7 +61,7 @@ body {
 }
 
 .homeImg img:hover {
-  transform: scale(1.50);
+  transform: scale(1.45);
   opacity: 0.5;
 }
 .homeImg h1 {
@@ -202,6 +206,9 @@ body {
 .minter{
   margin: 40px 40px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   justify-content: center;
 }
 .mintContent{
@@ -262,6 +269,18 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.nftGallery .head1{
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 18px -2px #2081e2;
 }
 
 @media screen and (max-width:1020px){
@@ -367,11 +386,26 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.transfer .head1{
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 18px -2px #2081e2;
+}
 .transferContent{
   display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
 }
+
+
 @media screen and (max-width:900px) {
   .transferContent{
     display: flex;

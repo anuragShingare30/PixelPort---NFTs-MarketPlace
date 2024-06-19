@@ -8,7 +8,7 @@ import "../index.css";
 function Transfer(props){
     return (
         <div className="transfer">
-            <h1>Transfer Tokens</h1>
+            <h1 className="head1">Transfer Tokens</h1>
             <div  className="transferContent">
             <Claimfaucet id={props.id}></Claimfaucet>
             <Checkbalance></Checkbalance>
