@@ -71,7 +71,7 @@ function Transfertoken() {
 
     return (
         <div className="transferToken">
-            <div style={head} className="head1">
+            <div style={head} className="head">
                 <h2>Transfer</h2>
             </div>
             <div className="transferInfo" style={transfer}>
